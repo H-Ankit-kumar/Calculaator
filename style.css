@@ -1,0 +1,69 @@
+h1{
+    font-family: Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    padding: 25px;
+}
+#calculator{
+    background-color: hsl(0, 0%, 20%);
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+
+}
+#display {
+    font-size: 50px;
+    color: white;
+    width: 100%;
+    height: 110px;
+    padding: 20px;
+    border: none;
+    background-color: hsl(0, 0%, 26%);
+    text-align: right;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+button {
+    font-size: 3rem;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 36%);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(0, 0%, 31%) ;
+}
+button:active {
+    background-color: hsl(0, 0%, 27%) ;
+}
+.operator-btn:hover{
+    background-color: hsl(40, 100%, 46%);
+}
+.operator-btn:active{
+    background-color: hsl(40, 100%, 42%);
+}
+.operator-btn {
+    background-color: hsl(40, 100%, 51%);
+}
+#add-btn {
+    margin-left: 380px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
